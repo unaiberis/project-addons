@@ -113,12 +113,11 @@ repos:
           - requirements.txt
           - --header
           - "# generated from manifests external_dependencies"
-  - repo: https://gitlab.com/PyCQA/flake8
-    rev: 3.8.3
+  - repo: https://github.com/pycqa/flake8.git
+    rev: 3.9.2
     hooks:
-      - id: flake8
-        name: flake8
-        additional_dependencies: ["flake8-bugbear==20.1.4"]
+    - id: flake8
+      exclude: 'tests|env|docs'
   - repo: https://github.com/PyCQA/pylint
     rev: v2.11.1
     hooks:

@@ -4,8 +4,7 @@
 {
     "name": "Compute Task Start and End Dates",
     "summary": "Module to compute task start and end dates based on time entries and stage",
-    "description": "Module to compute task start and end dates based on time entries and stage",
-    "website": "http://www.avanzosc.es",
+    "website": "https://github.com/avanzosc/project-addons",
     "license": "AGPL-3",
     "author": "AvanzOSC",
     "version": "14.0.1.0.0",
